@@ -1,0 +1,29 @@
+<mat-toolbar color="primary" >
+    <a routerLink="/"
+     mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon class="ab">library_books</mat-icon>
+      </a>
+      <span>Book Borrowing System</span>
+    <span class="example-spacer"></span>
+      <a
+      *ngIf="!login.isLoggedIn()"
+      [routerLink]="'/login'"
+       mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>login</mat-icon>
+      </a>
+      <a
+      *ngIf="!login.isLoggedIn()"
+      [routerLink]="'/signup'"
+       mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>app_registration</mat-icon>
+      </a>
+      <a
+      (click)="logout()"
+      *ngIf="login.isLoggedIn()"
+       mat-icon-button class="example-icon log " 
+       aria-label="Example icon-button with share icon"
+       style="margin-right: px;">
+        Logout
+      </a>
+  </mat-toolbar>
+  

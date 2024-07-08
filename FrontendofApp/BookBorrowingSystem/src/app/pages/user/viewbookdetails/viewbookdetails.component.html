@@ -1,0 +1,22 @@
+<div class="mat-card-container">
+    <mat-card *ngIf="bookDetails">
+      <mat-card-header>
+        <div class="mat-card-title">{{ bookDetails.name }} Details</div>
+      </mat-card-header>
+      <mat-card-content>
+        <p><strong>Author:</strong> {{ bookDetails.author }}</p>
+        <p><strong>Genre:</strong> {{ bookDetails.genre }}</p>
+        <p><strong>Description:</strong> {{ bookDetails.description }}</p>
+        <p><strong>Rating:</strong> 
+          <ng-container *ngFor="let _ of [].constructor(bookDetails.rating); let i = index">
+            <mat-icon class="star-icon" style="color: #FFD700;">star</mat-icon>
+          </ng-container>
+          <ng-container *ngFor="let _ of [].constructor(5 - bookDetails.rating); let i = index">
+            <mat-icon class="star-icon" style="color: #FFD700;">star_border</mat-icon>
+          </ng-container>
+        </p>
+        <p><strong>Availability:</strong> {{ bookDetails.is_Book_Available ? 'Available' : 'Not Available' }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

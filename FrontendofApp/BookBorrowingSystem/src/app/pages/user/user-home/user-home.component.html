@@ -1,0 +1,22 @@
+<div class="text-center mt-5">
+    <h1 class="ab">😊Welcome {{username}}</h1>
+  
+    
+    <mat-card class="mat-card">
+      <mat-card-content>
+        <p *ngIf="showMoreContent">
+          Thank you for using our Book Borrowing App. This application allows you to manage your created books and more.
+          It's designed to make the process of borrowing books easier and more efficient. If you have any questions or need
+          assistance, please don't hesitate to contact our support team.
+        </p>
+      </mat-card-content>
+  
+      
+      <mat-card-actions>
+        <button mat-button color="primary" (click)="toggleContent()">
+          {{ showMoreContent ? 'Close' : 'Know More' }}
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  

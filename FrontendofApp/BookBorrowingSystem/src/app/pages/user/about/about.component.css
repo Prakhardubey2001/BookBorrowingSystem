@@ -1,0 +1,12 @@
+/* about.component.css */
+
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    color: #007bff;
+  }
+  

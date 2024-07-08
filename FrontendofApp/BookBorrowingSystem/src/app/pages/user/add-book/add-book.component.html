@@ -1,0 +1,83 @@
+<mat-card class="result">
+    <mat-card-content>
+      <div class="text-center">
+        <h2 class="example-h2">Add Book</h2>
+      </div>
+  
+      <form [formGroup]="bookForm" (ngSubmit)="addBook()">
+        <div class="form-group">
+          <label for="name">Book Name:</label>
+          <input type="text" id="name" formControlName="name" class="form-control" required>
+          <div *ngIf="bookForm.get('name')?.hasError('maxlength') || bookForm.get('name')?.hasError('pattern') || bookForm.get('name')?.hasError('required')">
+            <span style="color: red;">
+              {{ bookForm.get('name')?.hasError('maxlength') ? 'Maximum 50 characters allowed.' : '' }}
+              {{ bookForm.get('name')?.hasError('pattern') ? 'Invalid format.' : '' }}
+              {{ bookForm.get('name')?.hasError('required') ? 'Name is required.' : '' }}
+            </span>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="rating">Rating:</label>
+          <input type="number" id="rating" formControlName="rating" class="form-control" required>
+          <div *ngIf="bookForm.get('rating')?.hasError('min') || bookForm.get('rating')?.hasError('max') || bookForm.get('rating')?.hasError('required')">
+            <span style="color: red;">
+              {{ bookForm.get('rating')?.hasError('min') || bookForm.get('rating')?.hasError('max') ? 'Rating should be between 1 and 5.' : '' }}
+              {{ bookForm.get('rating')?.hasError('required') ? 'Rating is required.' : '' }}
+            </span>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="author">Author:</label>
+          <input type="text" id="author" formControlName="author" class="form-control" required>
+          <div *ngIf="bookForm.get('author')?.hasError('maxlength') || bookForm.get('author')?.hasError('pattern') || bookForm.get('author')?.hasError('required')">
+            <span style="color: red;">
+              {{ bookForm.get('author')?.hasError('maxlength') ? 'Maximum 50 characters allowed.' : '' }}
+              {{ bookForm.get('author')?.hasError('pattern') ? 'Invalid format.' : '' }}
+              {{ bookForm.get('author')?.hasError('required') ? 'Author is required.' : '' }}
+            </span>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="genre">Genre:</label>
+          <input type="text" id="genre" formControlName="genre" class="form-control" required>
+          <div *ngIf="bookForm.get('genre')?.hasError('maxlength') || bookForm.get('genre')?.hasError('pattern') || bookForm.get('genre')?.hasError('required')">
+            <span style="color: red;">
+              {{ bookForm.get('genre')?.hasError('maxlength') ? 'Maximum 50 characters allowed.' : '' }}
+              {{ bookForm.get('genre')?.hasError('pattern') ? 'Invalid format.' : '' }}
+              {{ bookForm.get('genre')?.hasError('required') ? 'Genre is required.' : '' }}
+            </span>
+          </div>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea id="description" formControlName="description" class="form-control" rows="4" maxlength="500" required></textarea>
+            <div *ngIf="bookForm.get('description')?.hasError('maxlength') || bookForm.get('description')?.hasError('required')">
+              <span style="color: red;">
+                {{ bookForm.get('description')?.hasError('maxlength') ? 'Maximum 500 characters allowed.' : '' }}
+                {{ bookForm.get('description')?.hasError('required') ? 'Description is required.' : '' }}
+              </span>
+            </div>
+          </div>
+
+        
+        <div class="form-group">
+            <label for="isBookAvailable">Is Book Available:</label>
+            <div class="example-margin">
+              <mat-slide-toggle formControlName="isBookAvailable" [color]="">
+                {{ bookForm.get('isBookAvailable')?.value ? 'Book is Available' : 'Book is Not Available' }}
+              </mat-slide-toggle>
+            </div>
+          </div>
+  
+        <div class="form-group text-center">
+          <button type="submit" class="btn btn-primary" [disabled]="bookForm.invalid">Add Book</button>
+          <button type="button" class="a btn btn-warning ml-2" style="margin-left: 20px;"(click)="clearForm()">Clear</button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  

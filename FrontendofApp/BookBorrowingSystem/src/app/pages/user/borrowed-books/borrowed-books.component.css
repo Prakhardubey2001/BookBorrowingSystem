@@ -1,0 +1,20 @@
+
+.mat-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mat-table th, .mat-table td {
+    border: 1px solid #ddd; 
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .mat-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  .description-cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

@@ -1,0 +1,80 @@
+/* createdbooks.component.css */
+
+.mat-table-container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+
+.edit-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .edit-form h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .edit-form form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .edit-form label {
+    font-weight: bold;
+  }
+  
+  .edit-form textarea,
+  .edit-form input[type="text"],
+  .edit-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .edit-form button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-form button:hover {
+    background-color: #0b7dda;
+  }
+
+
+  .bordered-table {
+    border: 1px solid #ddd; /* Add border to the table */
+    border-collapse: collapse; /* Collapse border spacing */
+    width: 100%;
+  }
+  
+  .bordered-table th, .bordered-table td {
+    border: 1px solid #ddd; /* Add border to table cells */
+    padding: 8px; /* Add padding to table cells */
+  }
+  
+  .bordered-table th {
+    background-color: #f2f2f2; 
+  }
+  
+  .bordered-table tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+  .disabled-button {
+    background-color: grey;
+    
+  }
+  .description-cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

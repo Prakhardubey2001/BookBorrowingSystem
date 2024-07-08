@@ -1,0 +1,17 @@
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\bin\Debug\net6.0\BookBorrowBackend.Buisnesslayer.deps.json
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\bin\Debug\net6.0\BookBorrowBackend.Buisnesslayer.runtimeconfig.json
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\bin\Debug\net6.0\BookBorrowBackend.Buisnesslayer.dll
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\bin\Debug\net6.0\BookBorrowBackend.Buisnesslayer.pdb
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\bin\Debug\net6.0\BookBorrowbackend.Domainlayer.dll
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\bin\Debug\net6.0\BookBorrowbackend.Domainlayer.pdb
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\BookBorrowBackend.Buisnesslayer.csproj.AssemblyReference.cache
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\BookBorrowBackend.Buisnesslayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\BookBorrowBackend.Buisnesslayer.AssemblyInfoInputs.cache
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\BookBorrowBackend.Buisnesslayer.AssemblyInfo.cs
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\BookBorrowBackend.Buisnesslayer.csproj.CoreCompileInputs.cache
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\BookBorrowBackend.Buisnesslayer.csproj.CopyComplete
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\BookBorrowBackend.Buisnesslayer.dll
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\refint\BookBorrowBackend.Buisnesslayer.dll
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\BookBorrowBackend.Buisnesslayer.pdb
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\BookBorrowBackend.Buisnesslayer.genruntimeconfig.cache
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowBackend.Buisnesslayer\obj\Debug\net6.0\ref\BookBorrowBackend.Buisnesslayer.dll

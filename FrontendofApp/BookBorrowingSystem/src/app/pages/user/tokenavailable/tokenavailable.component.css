@@ -1,0 +1,15 @@
+.token-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .sad-face,
+  .happy-face {
+    font-size: 3rem;
+  }
+  
+  .message {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333; 
+  }

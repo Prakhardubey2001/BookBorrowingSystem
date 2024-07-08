@@ -1,0 +1,12 @@
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\bin\Debug\net6.0\BookBorrowbackend.Domainlayer.deps.json
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\bin\Debug\net6.0\BookBorrowbackend.Domainlayer.dll
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\bin\Debug\net6.0\BookBorrowbackend.Domainlayer.pdb
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\obj\Debug\net6.0\BookBorrowbackend.Domainlayer.csproj.AssemblyReference.cache
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\obj\Debug\net6.0\BookBorrowbackend.Domainlayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\obj\Debug\net6.0\BookBorrowbackend.Domainlayer.AssemblyInfoInputs.cache
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\obj\Debug\net6.0\BookBorrowbackend.Domainlayer.AssemblyInfo.cs
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\obj\Debug\net6.0\BookBorrowbackend.Domainlayer.csproj.CoreCompileInputs.cache
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\obj\Debug\net6.0\BookBorrowbackend.Domainlayer.dll
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\obj\Debug\net6.0\refint\BookBorrowbackend.Domainlayer.dll
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\obj\Debug\net6.0\BookBorrowbackend.Domainlayer.pdb
+C:\BookBorrowingSystem\Book_Borrowing_System_Backend\BookBorrowbackend.Domainlayer\obj\Debug\net6.0\ref\BookBorrowbackend.Domainlayer.dll

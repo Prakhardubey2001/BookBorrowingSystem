@@ -1,0 +1,52 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-6 offset-md-3">
+                <mat-card>
+                <div class="container text-center">
+                    <img src="../../../assets/logo.png" alt="registerlogo"  class="img-fluid abimg" style="max-width: 100px; height: auto;"/>
+                 </div>   
+                <h1 class="text-center">Register Here!!</h1>
+                <!-- {{user |json}} -->
+                <form (ngSubmit)="formSubmit()">
+                    
+                    
+                    <!--Name Field-->
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>Name</mat-label>
+                        <input
+                        [(ngModel)]="user.name" 
+                        name="name" type="text"
+                        matInput placeholder="Enter Username here"/>
+                        <mat-hint>Name<=50</mat-hint>
+
+                    </mat-form-field>
+                    <!--USername Field-->
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>Username</mat-label>
+                        <input
+                        [(ngModel)]="user.username" 
+                        name="username"
+                        matInput placeholder="Enter Username here"/>
+                        <mat-hint>Username is same as email</mat-hint>
+                    </mat-form-field>
+                    <!--Password Field-->
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>Password</mat-label>
+                        <input [(ngModel)]="user.password"
+                        name="password" 
+                        type="password" matInput placeholder="Enter Password here"/>
+                        <mat-hint>lenght>=8</mat-hint>
+                       
+                    </mat-form-field>
+                    
+                   
+                    <div class="container text-center">
+                        <button type="submit" mat-raised-button color="primary">Register</button>
+                        <button (click)="clearForm()" style="margin-left: 20px;" mat-raised-button color="accent">Clear</button>
+                        </div>
+                </form>
+            </mat-card>
+        </div>
+        </div>
+</div>

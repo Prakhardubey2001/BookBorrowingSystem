@@ -1,0 +1,21 @@
+<div class="token-container">
+    <ng-container *ngIf="tokenAvailable === null; else tokensAvailable">
+      
+      <p class="message">Loading...</p>
+    </ng-container>
+  
+    <ng-template #tokensAvailable>
+      <ng-container *ngIf="tokenAvailable === 0; else positiveTokens">
+        
+        <p class="sad-face">😢</p>
+        <p class="message">Oops! You have no tokens.</p>
+      </ng-container>
+  
+      <ng-template #positiveTokens>
+        
+        <p class="happy-face">😊</p>
+        <p class="message">Tokens Available: {{ tokenAvailable }}</p>
+      </ng-template>
+    </ng-template>
+  </div>
+  
